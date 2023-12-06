@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Invitacion from "./pages/Invitacion";
-import NotFound from "./pages/NotFound";
+import Invitacion from "/@/pages/Invitacion";
+import NotFound from "/@/pages/NotFound";
 
 export default function App() {
   return (

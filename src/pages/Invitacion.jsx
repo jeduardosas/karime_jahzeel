@@ -1,18 +1,19 @@
 import { useState,useEffect } from "react";
 import { useLocation, Navigate } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
-import CountDown from "../components/ContDown";
-import Header from "../components/Header";
-import Datos from "../components/Datos";
-import Ubicaciones from "../components/ubicaciones";
-import Confirmacion from '../components/Confirmacion';
-import Reservacion from '../components/Reservacion'
-import useScrollVisible from "../hooks/useScrollVisible";
+import CountDown from "/@/components/ContDown";
+import Header from "/@/components/Header";
+import Datos from "/@/components/Datos";
+import Ubicaciones from "/@/components/ubicaciones";
+import Confirmacion from '/@/components/Confirmacion';
+import Reservacion from '/@/components/Reservacion'
+import useScrollVisible from "/@/hooks/useScrollVisible";
 import 'animate.css'
-import '../styles/invitacion.css'
+import '/@/styles/invitacion.css'
 
 const Invitacion = () => {
-  const song = '../public/music/hastaElFin.mp3'
+  const song = '/music/hastaElFin.mp3'
+  console.log(song)
   //VALIDACION DE LOS PARAMS DE LA URL
   const location = useLocation();
   const params = new URLSearchParams(location.search);
@@ -58,7 +59,7 @@ const Invitacion = () => {
       <div className="protocolo">
         
         <div className='protocolo-img' >
-          <img src="../public/img/protocolo.png" alt="" />
+          <img src="/img/protocolo.png" alt="" />
         </div>
       </div>
 

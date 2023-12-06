@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <header className="header centrar">
           <div className="header-image">
-            <img className='animate__animated animate__fadeInDown' src='../../public/img/monograma.png' alt="" />
+            <img className='animate__animated animate__fadeInDown' src='/img/monograma.png' alt="" />
           </div>
       </header>
       

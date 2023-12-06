@@ -4,7 +4,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
   return (
     <>
       <div className="ubicaciones-title centrar">
-          <img src="../public/img/icons/ubicacion.png" alt="" />
+          <img src="/img/icons/ubicacion.png" alt="" />
           <h3>Ubicaciones</h3>
       </div>
       <div className="ubicaciones-cards">
@@ -14,7 +14,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div>
-            <img src="../public/img/icons/iglesia.png" alt="" />
+            <img src="/img/icons/iglesia.png" alt="" />
           </div>
 
           <div>
@@ -40,7 +40,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div>
-            <img src="../public/img/icons/recepcion.png" alt="" />
+            <img src="/img/icons/recepcion.png" alt="" />
           </div>
 
           <div>

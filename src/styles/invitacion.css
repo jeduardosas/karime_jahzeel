@@ -27,7 +27,7 @@
   width: 100%;
   height: 0;
   padding-top: 130%;
-  background-image: url('../../public/img/header.png');
+  background-image: url('/@public/img/header.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -301,7 +301,6 @@
 }
 .confirmar-card button a{
   color: #fff;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 /*P R O T O C O L O */
@@ -327,7 +326,7 @@
 .reserv-numero{
   width: 100%;
   height: 350px;
-  background-image: url('../../public/img/flor3.png');
+  background-image: url('/@public/img/flor3.png');
   background-repeat:no-repeat ;
   background-size: cover;
   background-position: center center;
