@@ -1,0 +1,24 @@
+.timeline{
+  margin-top: 100px;
+}
+.timeline-title-cont{
+  text-align: center;
+  font-size: 45px;
+  font-family: var(--cursiva);
+  color: var(--color_detalles);
+
+}
+
+.custom-date-color{
+  color:var(--color_detalles);
+  margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .custom-date-color{
+    color:#fff;
+  }
+}
+
+.timeline-title{
+  text-transform: uppercase;
+}
