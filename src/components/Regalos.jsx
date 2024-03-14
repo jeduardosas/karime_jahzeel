@@ -24,7 +24,7 @@ const Regalos = () => {
             </p>
             <p>sobre a los novios.</p>
             <p>
-              El sobre los novios te lo proporcionan el día de la boda para tu mayor comodidad
+              El sobre, los novios te lo proporcionan el día de la boda para tu mayor comodidad.
             </p>
           </div>
         </div>

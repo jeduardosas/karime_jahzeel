@@ -17,8 +17,15 @@
   .custom-date-color{
     color:#fff;
   }
+  
 }
 
 .timeline-title{
   text-transform: uppercase;
 }
+
+.custom-icon{
+    max-width: 100%;
+    height: auto;
+  }
+

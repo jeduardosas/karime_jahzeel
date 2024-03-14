@@ -24,7 +24,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
           </div>
 
           <div className='card-section'>
-            <p className='card-nombre'>Parroquia de San Francisco de Asis</p>
+            <p className='card-nombre'>Iglesia San Francisco de Asis</p>
             <p className='card-contenido'>Col. Mexicapan </p>
             {/* <p className='card-contenido'>esquina media luna</p> */}
             <p className='card-from'>Teloloapan, Guerrero.</p>
@@ -47,7 +47,7 @@ const Ubicaciones = ({cardCeremoniaVisible,cardRecepcionVisible}) => {
 
           <div>
             
-            <p className='card-hora'>13:45 Horas</p>
+            <p className='card-hora'>14:00 Horas</p>
           </div>
 
           <div className='card-section'>
